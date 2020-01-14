@@ -101,6 +101,10 @@ public class Utility {
             return null;
     }
 
+    /**
+     * 将返回的 JSON 数据解析成 AQI 实体类
+     */
+
     public static AQI handleAQIResponse(String response) {
         try {
 
